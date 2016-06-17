@@ -1,0 +1,100 @@
+// PROPERTIES
+$blueText: #2CC2F2;
+
+// ----- LOGIN -----
+.login {
+
+  .subtitle {
+    color: $blueText;
+    margin: 50px;
+  }
+
+  .login-form {
+    margin-top: 50px;
+    text-align: center;
+
+    .button {
+      border-radius: 30px;
+      margin-top: 30px;
+    }
+
+  }
+
+  .forgotten-password {
+    text-align: center;
+    text-decoration: underline;
+
+    a {
+      color: gray;
+    }
+  }
+
+}
+
+// ----- NAVBAR -----
+.top-bar{
+  background-color: white;
+  -moz-box-shadow: 0 3px #ECECEC;
+  -webkit-box-shadow: 0 3px #ECECEC;
+  box-shadow: 0 3px #ECECEC;
+  text-align: center;
+  color: $blueText;
+
+  ul {
+    background-color: white;
+  }
+
+  .menu-text {
+    width: 150px;
+  }
+
+  .navbar-icon {
+    max-height: 30px;
+    max-width: 30px;
+  }
+
+  .navbar-title {
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 5px;
+  }
+}
+
+
+// ----- BOOKSHELF -----
+
+.bookshelf {
+
+  .story {
+    margin-top: 20px;
+
+    .story-img {
+      border-radius: 20px;
+    }
+
+    .story-title {
+      margin: -100px 5px 0px 5px;
+      font-size: 2em;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      color: white;
+    }
+  }
+
+}
+
+
+// ----- STORY -----
+
+.story {
+  margin-top: 50px;
+  text-align: center;
+
+  .nav-arrow {
+    margin-top: 150px;
+  }
+
+  .story-text {
+    font-size: 1.5em;
+    margin: 30px 50px 0 50px;
+  }
+}
